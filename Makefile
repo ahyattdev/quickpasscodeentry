@@ -1,14 +1,15 @@
-export ARCHS = armv7 armv7s arm64
-export SDKVERSION = 8.4
-export TARGET = iphone:clang:8.4:7.0
-export TARGET_IPHONEOS_DEPLOYMENT_VERSION = 7.0
-
-export TWEAK_NAME = QuickPasscodeEntry
-export QuickPasscodeEntry_FILES = Tweak.xm
-export QuickPasscodeEntry_FRAMEWORKS = Foundation UIKit CoreGraphics
-export PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
+ARCHS = armv7 armv7s arm64
+SDKVERSION = 8.4
+TARGET = iphone:clang:latest:7.0
+PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 
 include theos/makefiles/common.mk
+
+TWEAK_NAME = QuickPasscodeEntry
+QuickPasscodeEntry_FILES = Tweak.xm
+QuickPasscodeEntry_FRAMEWORKS = Foundation UIKit CoreGraphics
+QuickPasscodeEntry_LIBRARIES = substrate
+
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
