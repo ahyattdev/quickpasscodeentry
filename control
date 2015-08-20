@@ -3,7 +3,7 @@ Name: QuickPasscodeEntry
 Depends: mobilesubstrate
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Passcode entry shown after unlock
+Description: Passcode entry shown when the screen comes on
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Section: Tweaks
