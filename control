@@ -1,0 +1,11 @@
+Package: io.github.rossistboss.quickpasscodeentry
+Name: QuickPasscodeEntry
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Passcode entry shown after unlock
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Section: Tweaks
+Priority: optional
+dev: andrewhyatt
