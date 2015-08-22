@@ -1,5 +1,4 @@
 ARCHS = armv7 armv7s arm64
-SDKVERSION = 8.4
 TARGET = iphone:clang:latest:7.0
 PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 DEBUG = 0

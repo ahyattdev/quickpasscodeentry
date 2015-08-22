@@ -1,7 +1,7 @@
 Package: io.github.rossistboss.quickpasscodeentry
 Name: QuickPasscodeEntry
 Depends: mobilesubstrate, firmware (>= 7.0)
-Version: 0.1
+Version: 1.0-beta1
 Architecture: iphoneos-arm
 Description: Passcode entry shown when the screen comes on
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
